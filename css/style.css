@@ -145,7 +145,36 @@ h2{
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+.phone{
+  width: 100%;
+  margin-top: 50px;
+  height: 500px;
+}
+.slider-top{
+  background-image: url("../img/HelbizBanner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.phone h2{
+  font-size: 35px;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: 700;
+  text-align: left;
+}
+.phone p{
+  font-size: 1.5em;
+  width: 25%;
+  margin-left: 15%;
+  text-align: left;
+}
+.slider-bottom a img{
+  max-width: 20%;
+}
+.slider-bottom{
+  margin-top: 100px;
+}
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .header-top {
@@ -169,6 +198,9 @@ h2{
   } */
   .go-bike a{
     font-size: 2.0em;
+  }
+  .slider-bottom a img{
+    max-width: 20%;
   }
 }
 
@@ -205,5 +237,9 @@ h2{
   }
   .go-bike a{
     font-size: 2.0em;
+  }
+  .slider-top{
+    background-size: cover;
+    background-position: left;
   }
 }
