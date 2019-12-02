@@ -2,12 +2,12 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 10px;
 }
 
 .container_1000 {
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .menu_inline {
@@ -87,6 +87,7 @@ header {
   font-size: 1.5em;
   margin-bottom: 0.8rem;
 }
+
 .div-go{
   max-height: 100%
   margin: 15px 0;
@@ -111,6 +112,21 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+h2{
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: lighter;
+}
+
+.go-bike a{
+  text-align: center;
+  font-size: 2.0em;
+}
+
+
+
+
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
